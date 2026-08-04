@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Varahi Laboratory Management System</title>
+</head>
+<body>
+
+<h1>🏥 Varahi Laboratory Management System</h1>
+
+<h2>Welcome</h2>
+
+<hr>
+
+<button>➕ New Patient</button>
+
+<br><br>
+
+<button>🧪 New Report</button>
+
+<br><br>
+
+<button>💰 Billing</button>
+
+<br><br>
+
+<button>🔍 Patient Search</button>
+
+</body>
+</html>
