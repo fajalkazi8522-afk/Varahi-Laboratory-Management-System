@@ -47,6 +47,28 @@ let cbc = {
 
 name: document.getElementById("cbcName").value,
 
+hb: document.getElementById("hb").value,
+
+wbc: document.getElementById("wbc").value,
+
+rbc: document.getElementById("rbc").value,
+
+platelet: document.getElementById("platelet").value,
+
+pcv: document.getElementById("pcv").value,
+
+mcv: document.getElementById("mcv").value
+
+};
+
+localStorage.setItem("cbcReport", JSON.stringify(cbc));
+
+alert("CBC Report Saved Successfully");
+
+}
+
+name: document.getElementById("cbcName").value,
+
 hb: document.getElementById("hb").value
 
 };
