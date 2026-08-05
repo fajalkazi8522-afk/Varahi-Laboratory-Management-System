@@ -35,3 +35,6 @@
 <button onclick="location.href='patient-list.html'">
 👥 Patient List
 </button>
+<button onclick="location.href='reports/cbc.html'">
+🩸 CBC Report
+</button>
