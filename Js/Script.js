@@ -1,7 +1,7 @@
 
 function savePatient() {
 
-let patient = {
+function getpatient = {
 
 name: document.getElementById("name")?.value || "",
 
