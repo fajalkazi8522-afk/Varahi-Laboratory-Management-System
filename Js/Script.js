@@ -56,3 +56,21 @@ localStorage.setItem("cbcReport", JSON.stringify(cbc));
 alert("CBC Report Saved Successfully");
 
 }
+function viewCBC() {
+
+let cbc = JSON.parse(localStorage.getItem("cbcReport"));
+
+if(cbc){
+
+alert(
+"Patient: " + cbc.name +
+"\nHemoglobin: " + cbc.hb
+);
+
+}else{
+
+alert("No CBC Report Found");
+
+}
+
+}
