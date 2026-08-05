@@ -15,7 +15,7 @@
 
 <input id="name" type="text" placeholder="Patient Name">
 
-<input type="number" placeholder="Age">
+<input id="age" type="number" placeholder="Age">
 
 <select>
 <option>Male</option>
@@ -23,19 +23,22 @@
 <option>Other</option>
 </select>
 
-<input type="text" placeholder="Mobile Number">
+
+<input id="mobile" type="text" placeholder="Mobile Number">
 
 <input type="text" placeholder="Ref. Doctor">
 
-<input type="text" placeholder="Test Name">
+<input id="test" type="text" placeholder="Test Name">
 
 <input type="date">
 
-<button>💾 Save Patient</button>
+<button onclick="savePatient()">💾 Save Patient</button>
+
+<button onclick="getPatient()">👁 View Saved Patient</button>
 
 <button onclick="location.href='dashboard.html'">⬅ Back</button>
 
 </div>
-
+<script src="js/script.js"></script> 
 </body>
 </html>
