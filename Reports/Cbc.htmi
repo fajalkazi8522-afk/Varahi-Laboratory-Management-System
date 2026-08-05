@@ -12,9 +12,9 @@
 
 <h1>🩸 CBC Report</h1>
 
-<input type="text" placeholder="Patient Name">
+<input id="cbcName" type="text" placeholder="Patient Name">
 
-<input type="text" placeholder="Hemoglobin (Hb)">
+<input id="hb" type="text" placeholder="Hemoglobin (Hb)">
 
 <input type="text" placeholder="Total WBC">
 
