@@ -16,6 +16,15 @@
 
 <input id="hb" type="text" placeholder="Hemoglobin (Hb)">
 
+<input id="wbc" type="text" placeholder="Total WBC">
+
+<input id="rbc" type="text" placeholder="RBC Count">
+
+<input id="platelet" type="text" placeholder="Platelet Count">
+
+<input id="pcv" type="text" placeholder="PCV">
+
+<input id="mcv" type="text" placeholder="MCV">
 <input type="text" placeholder="Total WBC">
 
 <input type="text" placeholder="RBC Count">
