@@ -124,3 +124,20 @@ document.getElementById("showPlatelet").innerHTML = cbc.platelet;
 }
 
 });
+function saveBill(){
+
+let bill = {
+
+patient: document.getElementById("patientName").value,
+
+test: document.getElementById("testName").value,
+
+amount: document.getElementById("amount").value
+
+};
+
+localStorage.setItem("bill", JSON.stringify(bill));
+
+alert("Bill Saved Successfully");
+
+}
