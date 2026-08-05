@@ -1,34 +1,33 @@
-<header>
-    <h1>🧪 Varahi Laboratory</h1>
-    <p>Near CHC Hospital, Talaja</p>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard - Varahi Laboratory</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
 
-<div class="container">
+<body>
 
-    <button onclick="alert('New Patient Module Coming Soon')">
-        ➕ New Patient
-    </button>
+<div class="dashboard">
 
-    <button onclick="alert('New Report Module Coming Soon')">
-        🧪 New Report
-    </button>
+<h1>🧪 Varahi Laboratory</h1>
 
-    <button onclick="alert('Billing Module Coming Soon')">
-        💰 Billing
-    </button>
+<h2>Dashboard</h2>
 
-    <button onclick="alert('Patient Search Module Coming Soon')">
-        🔍 Patient Search
-    </button>
+<button onclick="location.href='patient.html'">👤 Patient Registration</button>
 
-    <button onclick="alert('Price List Module Coming Soon')">
-        📋 Test Price List
-    </button>
+<button onclick="location.href='report.html'">📝 New Report</button>
+
+<button onclick="location.href='billing.html'">💰 Billing</button>
+
+<button>🔍 Patient Search</button>
+
+<button>📋 Test Price List</button>
+
+<button onclick="location.href='index.html'">🏠 Home</button>
 
 </div>
 
-<footer>
-    <p><b>Lab Incharge:</b> Raju M. Pandya (B.Sc. Microbiology)</p>
-    <p>📞 9328878821</p>
-    <p>📧 Raju.m.pandya@gmail.com</p>
-</footer>
+</body>
+</html>
