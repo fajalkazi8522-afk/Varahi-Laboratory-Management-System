@@ -141,3 +141,27 @@ localStorage.setItem("bill", JSON.stringify(bill));
 alert("Bill Saved Successfully");
 
 }
+function searchPatient(){
+
+let patient = JSON.parse(localStorage.getItem("patient"));
+
+let name = document.getElementById("searchName").value;
+
+let result = document.getElementById("searchResult");
+
+if(patient && patient.name.toLowerCase() === name.toLowerCase()){
+
+result.innerHTML =
+"<h3>Patient Found</h3>" +
+"<p>Name: " + patient.name + "</p>" +
+"<p>Age: " + patient.age + "</p>" +
+"<p>Mobile: " + patient.mobile + "</p>" +
+"<p>Test: " + patient.test + "</p>";
+
+}else{
+
+result.innerHTML = "<h3>Patient Not Found</h3>";
+
+}
+
+}
