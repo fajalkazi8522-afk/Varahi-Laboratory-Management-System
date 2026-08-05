@@ -103,3 +103,24 @@ alert("No CBC Report Found");
 }
 
 }
+window.addEventListener("load", function () {
+
+let cbc = JSON.parse(localStorage.getItem("cbcReport"));
+
+if(cbc){
+
+if(document.getElementById("showHb"))
+document.getElementById("showHb").innerHTML = cbc.hb;
+
+if(document.getElementById("showWbc"))
+document.getElementById("showWbc").innerHTML = cbc.wbc;
+
+if(document.getElementById("showRbc"))
+document.getElementById("showRbc").innerHTML = cbc.rbc;
+
+if(document.getElementById("showPlatelet"))
+document.getElementById("showPlatelet").innerHTML = cbc.platelet;
+
+}
+
+});
