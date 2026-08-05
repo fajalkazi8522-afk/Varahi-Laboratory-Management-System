@@ -32,3 +32,6 @@
 
 </body>
 </html>
+<button onclick="location.href='patient-list.html'">
+👥 Patient List
+</button>
