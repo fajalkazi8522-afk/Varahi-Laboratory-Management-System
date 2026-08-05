@@ -32,6 +32,8 @@
 
 <button onclick="saveCBC()">💾 Save CBC Report</button>
 
+<button onclick="viewCBC()">👁 View CBC Report</button>
+
 <button onclick="window.print()">🖨 Print Report</button>
 
 <button onclick="location.href='../dashboard.html'">⬅ Back</button>
