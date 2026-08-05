@@ -35,6 +35,13 @@
 
 <input type="text" placeholder="MCV">
 
+<input id="mch" type="text" placeholder="MCH">
+
+<input id="mchc" type="text" placeholder="MCHC">
+
+<input id="neutrophils" type="text" placeholder="Neutrophils %">
+
+<input id="lymphocytes" type="text" placeholder="Lymphocytes %">
 <input type="text" placeholder="MCH">
 
 <input type="text" placeholder="MCHC">
