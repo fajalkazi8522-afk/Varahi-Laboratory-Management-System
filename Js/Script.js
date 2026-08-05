@@ -58,7 +58,14 @@ platelet: document.getElementById("platelet").value,
 pcv: document.getElementById("pcv").value,
 
 mcv: document.getElementById("mcv").value
+  
+mch: document.getElementById("mch").value,
 
+mchc: document.getElementById("mchc").value,
+
+neutrophils: document.getElementById("neutrophils").value,
+
+lymphocytes: document.getElementById("lymphocytes").value,
 };
 
 localStorage.setItem("cbcReport", JSON.stringify(cbc));
