@@ -1,1 +1,41 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patient Registration</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+<h1>👤 Patient Registration</h1>
+
+<input type="text" placeholder="Patient Name">
+
+<input type="number" placeholder="Age">
+
+<select>
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+
+<input type="text" placeholder="Mobile Number">
+
+<input type="text" placeholder="Ref. Doctor">
+
+<input type="text" placeholder="Test Name">
+
+<input type="date">
+
+<button>💾 Save Patient</button>
+
+<button onclick="location.href='dashboard.html'">⬅ Back</button>
+
+</div>
+
+</body>
+</html>
