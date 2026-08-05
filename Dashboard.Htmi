@@ -24,6 +24,9 @@
 
 <button onclick="location.href='index.html'">🏠 Home</button>
 
+<button onclick="location.href='search.html'">
+🔍 Patient Search
+</button>
 </div>
 
 </body>
