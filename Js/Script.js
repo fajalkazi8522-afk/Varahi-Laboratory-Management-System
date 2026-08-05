@@ -41,3 +41,18 @@ box.innerHTML = `
 }
 
 }
+function saveCBC() {
+
+let cbc = {
+
+name: document.getElementById("cbcName").value,
+
+hb: document.getElementById("hb").value
+
+};
+
+localStorage.setItem("cbcReport", JSON.stringify(cbc));
+
+alert("CBC Report Saved Successfully");
+
+}
