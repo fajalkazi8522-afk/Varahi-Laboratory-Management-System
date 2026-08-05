@@ -18,3 +18,26 @@ localStorage.setItem("patient", JSON.stringify(patient));
 alert("Patient Saved Successfully");
 
 }
+window.onload = function () {
+
+let patient = JSON.parse(localStorage.getItem("patient"));
+
+let box = document.getElementById("patientData");
+
+if(box && patient){
+
+box.innerHTML = `
+<h3>Saved Patient</h3>
+
+<p><b>Name:</b> ${patient.name}</p>
+
+<p><b>Age:</b> ${patient.age}</p>
+
+<p><b>Mobile:</b> ${patient.mobile}</p>
+
+<p><b>Test:</b> ${patient.test}</p>
+`;
+
+}
+
+}
