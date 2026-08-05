@@ -30,7 +30,7 @@
 
 <input type="text" placeholder="MCHC">
 
-<button>💾 Save CBC Report</button>
+<button onclick="saveCBC()">💾 Save CBC Report</button>
 
 <button onclick="window.print()">🖨 Print Report</button>
 
