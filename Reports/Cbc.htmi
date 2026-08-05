@@ -52,6 +52,42 @@
 
 <button onclick="window.print()">🖨 Print Report</button>
 
+<hr>
+
+<h2>CBC Report Preview</h2>
+
+<table border="1" width="100%" cellpadding="8">
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>Normal Range</th>
+</tr>
+
+<tr>
+<td>Hemoglobin</td>
+<td id="showHb">-</td>
+<td>13 - 17 g/dL</td>
+</tr>
+
+<tr>
+<td>Total WBC</td>
+<td id="showWbc">-</td>
+<td>4000 - 11000 /cumm</td>
+</tr>
+
+<tr>
+<td>RBC Count</td>
+<td id="showRbc">-</td>
+<td>4.5 - 5.5 million/cumm</td>
+</tr>
+
+<tr>
+<td>Platelet Count</td>
+<td id="showPlatelet">-</td>
+<td>150000 - 450000 /cumm</td>
+</tr>
+
+</table>
 <button onclick="location.href='../dashboard.html'">⬅ Back</button>
 
 </div>
