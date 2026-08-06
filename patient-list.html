@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patient List</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
 
+<body>
+
+<div class="dashboard">
+
+<h1>👥 Patient List</h1>
+
+<div id="patientData"></div>
+
+<button onclick="location.href='dashboard.html'">
+⬅ Dashboard
+</button>
+
+</div>
+
+<script src="js/script.js"></script>
+
+<script>
+
+let patient=JSON.parse(localStorage.getItem("patient"));
+
+if(patient){
+
+document.getElementById("patientData").innerHTML=`
+
+<p><b>Name:</b> ${patient.name}</p>
+
+<p><b>Age:</b> ${patient.age}</p>
+
+<p><b>Gender:</b> ${patient.gender}</p>
+
+<p><b>Mobile:</b> ${patient.mobile}</p>
+
+<p><b>Address:</b> ${patient.address}</p>
+
+`;
+
+}else{
+
+document.getElementById("patientData").innerHTML="<h3>No Patient Found</h3>";
+
+}
+
+</script>
+
+</body>
+</html>
