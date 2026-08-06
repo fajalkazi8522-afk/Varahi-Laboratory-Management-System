@@ -1,1 +1,0 @@
-# Varahi-Laboratory-Management-System 
