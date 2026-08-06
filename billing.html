@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Billing - Varahi Laboratory</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
 
+<body>
+
+<div class="dashboard">
+
+<h1>💰 Billing</h1>
+
+<input type="text" id="patientName" placeholder="Patient Name">
+
+<input type="number" id="amount" placeholder="Amount (₹)">
+
+<button onclick="generateBill()">
+🧾 Generate Bill
+</button>
+
+<div id="bill"></div>
+
+<br>
+
+<button onclick="location.href='dashboard.html'">
+⬅ Dashboard
+</button>
+
+</div>
+
+<script>
+function generateBill(){
+
+let name=document.getElementById("patientName").value;
+let amount=document.getElementById("amount").value;
+
+document.getElementById("bill").innerHTML=`
+<hr>
+<h3>Bill Receipt</h3>
+<p><b>Patient:</b> ${name}</p>
+<p><b>Total Amount:</b> ₹${amount}</p>
+`;
+
+}
+</script>
+
+</body>
+</html>
