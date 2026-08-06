@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patient Search</title>
 
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<h1>🔍 Patient Search</h1>
+
+<input type="text" id="searchName" placeholder="Enter Patient Name">
+
+<button onclick="searchPatient()">
+🔍 Search
+</button>
+
+<div id="result"></div>
+
+<br>
+
+<button onclick="location.href='dashboard.html'">
+⬅ Dashboard
+</button>
+
+</div>
+
+<script src="js/script.js"></script>
+
+<script>
+
+function searchPatient(){
+
+let patient = JSON.parse(localStorage.getItem("patient"));
+
+let name = document.getElementById("searchName").value;
+
+if(patient && patient.name.toLowerCase()===name.toLowerCase()){
+
+document.getElementById("result").innerHTML=`
+
+<p><b>Name:</b> ${patient.name}</p>
+
+<p><b>Age:</b> ${patient.age}</p>
+
+<p><b>Gender:</b> ${patient.gender}</p>
+
+<p><b>Mobile:</b> ${patient.mobile}</p>
+
+<p><b>Address:</b> ${patient.address}</p>
+
+`;
+
+}else{
+
+document.getElementById("result").innerHTML="<h3>❌ Patient Not Found</h3>";
+
+}
+
+}
+
+</script>
+
+</body>
+</html>
